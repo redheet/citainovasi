@@ -1,0 +1,58 @@
+[
+    {
+        "icon": "LuBookOpenCheck",
+        "category": "regisrule",
+        "title": "Register on the website:",
+        "desc": "https://citainovasi.com/homepages/gsic",
+        "shortDesc": "Get personalized financial advice to help reach your financial goals."
+    },
+    {
+        "icon": "IoMailUnreadOutline",
+        "category": "regisrule",
+        "title": "LOA and invoice",
+        "desc": "LOA and invoice will be sent to your email.",
+        "shortDesc": "Get personalized financial advice to help reach your financial goals."
+    },
+    {
+        "icon": "MdOutlinePayments",
+        "category": "regisrule",
+        "title": "Payment deadline",
+        "desc": "Please complete your payment before the specified deadline.",
+        "shortDesc": "Get personalized financial advice to help reach your financial goals."
+    },
+    {
+        "icon": "FaPeopleGroup",
+        "category": "regisrule",
+        "title": "Information detail",
+        "desc": "All information about competition will be communicated through the leader email.",
+        "shortDesc": "Get personalized financial advice to help reach your financial goals."
+    },
+    {
+        "icon": "RiPresentationLine",
+        "category": "regisrule",
+        "title": "Detail for Presentation",
+        "desc": "Participants can choose round 1 or 2 to present their research results.",
+        "shortDesc": "We provide timely reports, market updates, and data-driven insights to help you make informed trading decisions."
+    },
+    {
+        "icon": "TbReport",
+        "category": "regisrule",
+        "title": "Results",
+        "desc": "The results of rounds 1 and 2 will be sent via the team leader's email.",
+        "shortDesc": "We provide timely reports, market updates, and data-driven insights to help you make informed trading decisions."
+    },
+    {
+        "icon": "TbWorldCheck",
+        "category": "regisrule",
+        "title": "Global Round",
+        "desc": "Participants confirm their participation in the global round.",
+        "shortDesc": "We provide timely reports, market updates, and data-driven insights to help you make informed trading decisions."
+    },
+    {
+        "icon": "BsCalendar2Check",
+        "category": "regisrule",
+        "title": "Prepare for Presentation",
+        "desc": "Prepare yourself as best as you can for the competition.",
+        "shortDesc": "We provide timely reports, market updates, and data-driven insights to help you make informed trading decisions."
+    }
+]
