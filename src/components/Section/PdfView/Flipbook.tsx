@@ -17,6 +17,8 @@ const PageCover = React.forwardRef<HTMLDivElement, { children: React.ReactNode }
   );
 });
 
+PageCover.displayName = "PageCover";
+
 const Page = React.forwardRef<HTMLDivElement, { children: React.ReactNode; number: number; className?: string; }>((props, ref) => {
   return (
     <div className="page" ref={ref}>
@@ -28,6 +30,8 @@ const Page = React.forwardRef<HTMLDivElement, { children: React.ReactNode; numbe
     </div>
   );
 });
+
+Page.displayName = "Page";
 
 interface FlipBookProps {
   pages: string[]; // array of image URLs
