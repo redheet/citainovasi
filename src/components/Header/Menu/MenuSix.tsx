@@ -94,7 +94,7 @@ const MenuSix = () => {
                         </li>
                         <li className={`sub-nav-item text-black`}>
                           {" "}
-                          <a className="sub-nav-link font-medium" href="#!">
+                          <a className="sub-nav-link font-medium" href="/pdf/gsic.pdf">
                             Download
                           </a>
                         </li>
