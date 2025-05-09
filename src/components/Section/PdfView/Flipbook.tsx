@@ -1,4 +1,5 @@
 'use client'
+import Image from "next/image";
 import React, { Component } from "react";
 import HTMLFlipBook from "react-pageflip";
 
@@ -128,7 +129,7 @@ export class FlipBook extends Component<FlipBookProps, FlipBookState> {
           <PageCover>{title}</PageCover>
           {pages.map((page, index) => (
             <Page key={index} className="page" number={index}>
-              <img src={page} alt="" className="page-image" />
+              <Image src={page} alt="" className="page-image" width={width} height={height}/>
             </Page>
           ))}
           <PageCover>{endTitle}</PageCover>
