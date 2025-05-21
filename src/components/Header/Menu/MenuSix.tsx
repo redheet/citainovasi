@@ -105,7 +105,7 @@ const MenuSix = () => {
               </div>
               <div className="menu-right-block flex items-center">
                 <a
-                  href="https://tally.so/r/waDKr2"
+                  href="https://registration.citainovasi.com"
                   target="_blank"
                   className="max-lg:hidden button-main bg-orange text-white rounded-full hover:bg-black"
                 >
@@ -178,6 +178,20 @@ const MenuSix = () => {
                       </Link>
                     </li>
                   </ul>
+                </li>
+                <li
+                  className={`nav-item-mobile h-full flex-column gap-2 pt-2 pb-2 pl-3 pr-3 pointer home ${
+                    openSubNavMobile === 1 ? "active" : ""
+                  }`}
+                  onClick={() => handleOpenSubNavMobile(1)}
+                >
+                  <a
+                    className="nav-link-mobile flex items-center justify-between"
+                    href="https://registration.citainovasi.com"
+                    target="_blank"
+                  >
+                    <span className="body2 font-semibold">Register Now </span>
+                  </a>
                 </li>
               </ul>
             </div>
