@@ -14,8 +14,13 @@ export default function Pdf() {
         "/images/guidebook/9.png",
         "/images/guidebook/10.png",
         "/images/guidebook/11.png",
-        "/images/guidebook/13.png",
-        "/images/guidebook/14.png",
+        "/images/guidebook/12.png",
+        "/images/guidebook/15.png",
+        "/images/guidebook/16.png",
+        "/images/guidebook/17.png",
+        "/images/guidebook/18.png",
+        "/images/guidebook/19.png",
+        
         // ... more images
       ];
   return (
