@@ -118,7 +118,7 @@ const Footer = () => {
                         className="caption1 has-line-before line-white text-surface hover-underline"
                         href="#!"
                       >
-                        Blog 
+                        Blog
                       </Link>
                     </li>
                     <li className="mt-3">
@@ -177,7 +177,7 @@ const Footer = () => {
                 <div className="locate mt-3 flex items-center">
                   <Icon.MapPin weight="light" className="text-surface" />
                   <div className="caption1 text-surface ml-2">
-                    Jl. Makam Pule
+                    Jl. Griya Hayati Duren seribu, Depok
                   </div>
                 </div>
                 <form className="send-block mt-5 flex items-center h-[46px] rounded-lg overflow-hidden">
