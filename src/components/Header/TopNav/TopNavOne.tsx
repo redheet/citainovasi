@@ -11,7 +11,7 @@ const TopNavOne = () => {
           <div className="left-block flex items-center">
             <div className="location flex items-center max-lg:hidden">
               <Icon.MapPin className="text-white text-xl" />
-              <span className="ml-2 caption1 text-white">Jl. Makam Pule</span>
+              <span className="ml-2 caption1 text-white">Jl. Griya Hayati Duren seribu, Depok</span>
             </div>
             <div className="mail lg:ml-7 flex items-center">
               <Icon.Envelope className="text-white text-xl" />
