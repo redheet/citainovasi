@@ -42,7 +42,8 @@ const SliderSix = () => {
                 <div className="button-block md:mt-7 mt-5">
                   <Link
                     className="button-main bg-orange text-white hover:bg-white hover:text-black rounded-full"
-                    href="/service/service-one"
+                    href="https://registration.citainovasi.com"
+                    target="_blank"
                   >
                     Get Started
                   </Link>
