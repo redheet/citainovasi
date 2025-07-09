@@ -63,7 +63,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
     title: "GSIC - Global Sustainability Innovation Competition",
-    description: "Global Sustainability Innovation Competition (GSIC) is a competition focused on innovators who create innovative solutions in the field of sustainability",
+    description: "Global Sustainability Innovation Competition (GSIC) is a Prominent platform dedicated to fostering and recognizing innovators who are at the forefront of creating impactful solutions for sustainability.",
   };
 
 export default function HomeSix() {
