@@ -62,8 +62,8 @@ import RegistrationRules from "@/components/Section/Service/RegistrationRules";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "GSIC - Greenpreneur Sustainability Innovation Competition",
-    description: "Greenpreneur Sustainability Innovation Competition (GSIC) is a competition focused on innovators who create innovative solutions in the field of sustainability",
+    title: "GSIC - Global Sustainability Innovation Competition",
+    description: "Global Sustainability Innovation Competition (GSIC) is a competition focused on innovators who create innovative solutions in the field of sustainability",
   };
 
 export default function HomeSix() {

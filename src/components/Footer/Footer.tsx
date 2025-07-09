@@ -18,8 +18,9 @@ const Footer = () => {
                   alt="Logo"
                 />
                 <div className="text caption1 text-white">
-                  Competition focused on innovators who create innovative
-                  solutions in the field of sustainability.
+                  Prominent platform dedicated to fostering and recognizing
+                  innovators who are at the forefront of creating impactful
+                  solutions for sustainability.
                 </div>
                 <div className="list-social flex items-center gap-2.5 style-one">
                   <Link
@@ -93,7 +94,7 @@ const Footer = () => {
                     <li className="mt-3">
                       <Link
                         className="caption1 has-line-before line-white text-surface hover-underline"
-                        href="#!"
+                        href="/pages/pdfview"
                       >
                         View
                       </Link>
@@ -101,7 +102,7 @@ const Footer = () => {
                     <li className="mt-3">
                       <Link
                         className="caption1 has-line-before line-white text-surface hover-underline"
-                        href="#!"
+                        href="/pdf/gsic.pdf"
                       >
                         Download
                       </Link>

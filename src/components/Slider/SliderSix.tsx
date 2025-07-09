@@ -23,10 +23,10 @@ const SliderSix = () => {
                 <div className="heading2">
                   <div className="relative overflow-hidden">
                     <span className="block text-white relative overflow-hidden">
-                      Greenpreneur Sustainability{" "}
+                      Global Sustainability{" "}
                     </span>
                     <span className="block text-white absolute top-0 left-0 w-full h-full">
-                      Greenpreneur Sustainability{" "}
+                      Global Sustainability{" "}
                     </span>
                   </div>
                   <div className="relative overflow-hidden">
@@ -38,7 +38,7 @@ const SliderSix = () => {
                     </span>
                   </div>
                 </div>
-                <div className="body2 md:mt-6 mt-4 text-white xl:w-1/2 sm:w-2/3 w-full">{`Competition focused on innovators who create innovative solutions in the field of sustainability.`}</div>
+                <div className="body2 md:mt-6 mt-4 text-white xl:w-1/2 sm:w-2/3 w-full">{`Prominent platform dedicated to fostering and recognizing innovators who are at the forefront of creating impactful solutions for sustainability.`}</div>
                 <div className="button-block md:mt-7 mt-5">
                   <Link
                     className="button-main bg-orange text-white hover:bg-white hover:text-black rounded-full"

@@ -35,13 +35,17 @@ const CounterSix = () => {
         <div className="container flex items-center justify-center">
           <div className="lg:w-5/6 w-full">
             <div className="capitalize text-white text-center text-2xl font-medium lg:mt-10 mt-7">
-              Greenpreneur Sustainability Innovation Competition (GSIC) is a
-              competition focused on innovators who create innovative solutions
-              in the field of sustainability. This event is designed to
-              encourage business ideas that have a positive impact on the
-              environment, as well as promote initiatives that contribute to the
-              preservation of natural resources, reduction of carbon emissions,
-              and other environmentally friendly solutions.{" "}
+              The Global Sustainability Innovation Competition (GSIC) is a
+              prominent platform dedicated to fostering and recognizing
+              innovators who are at the forefront of creating impactful
+              solutions for sustainability. The core purpose of this event is to
+              actively encourage and spotlight initiatives that bring about a
+              demonstrable positive effect on the environment. This includes,
+              but is not limited to, efforts focused on the preservation of
+              vital natural resources, the crucial reduction of carbon
+              emissions, and the development of a wide range of other
+              environmentally friendly solutions that contribute to a more
+              sustainable future.{" "}
             </div>
             {/* <div className="grid xl:grid-cols-4 grid-cols-2 gap-y-8 lg:mt-10 mt-7">
               <div className="item">
