@@ -79,7 +79,7 @@ const Footer = () => {
                     <li className="mt-3">
                       <Link
                         className="caption1 has-line-before line-white text-surface hover-underline"
-                        href="/contact/contact-two"
+                        href="#!"
                       >
                         Contact
                       </Link>
