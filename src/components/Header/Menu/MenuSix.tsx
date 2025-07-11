@@ -41,7 +41,7 @@ const MenuSix = () => {
             <div className="main flex items-center justify-between lg:h-20 h-16 py-4 px-7 rounded-full">
               <Link className="menu-left-block" href="/homepages/gsic">
                 <Image
-                  src={"/images/cii.png"}
+                  src={"/images/gsic-logo.png"}
                   width={1800}
                   height={1600}
                   alt="logo"

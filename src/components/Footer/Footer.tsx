@@ -14,7 +14,7 @@ const Footer = () => {
                   width={4000}
                   height={3000}
                   className="footer-logo w-[145px]"
-                  src="/images/logo.webp"
+                  src="/images/gsic.png"
                   alt="Logo"
                 />
                 <div className="text caption1 text-white">
