@@ -1,6 +1,7 @@
 'use client'
 import React, { Component } from "react";
 import HTMLFlipBook from "react-pageflip";
+import Image from "next/image";
 
 const PageCover = React.forwardRef<HTMLDivElement, { children: React.ReactNode }>((props, ref) => {
   return (
@@ -133,7 +134,7 @@ export class FlipBook extends Component<FlipBookProps, FlipBookState> {
           <PageCover>{title}</PageCover>
           {pages.map((page, index) => (
             <Page key={index} className="page" number={index}>
-              <img src={page} alt="" className="page-image" />
+              <Image src={page} alt="image" className="page-image" width={550} height={733} loading="lazy" />
             </Page>
           ))}
           <PageCover>{endTitle}</PageCover>
