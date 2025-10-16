@@ -47,8 +47,8 @@ export default function NotFound() {
             </h3>
 
             <p className="text-base text-gray-600 leading-relaxed px-4">
-              The e-signature you're looking for doesn't exist or has been
-              removed. Please check the URL and try again.
+              The e-signature you&apos;re looking for doesn&apos;t exist or has
+              been removed. Please check the URL and try again.
             </p>
           </div>
 
