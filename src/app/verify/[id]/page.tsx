@@ -12,6 +12,7 @@ interface SignatureData {
   description: string;
   signatureUrl: string;
   qrCodeUrl?: string;
+  logo: string;
 }
 
 type SignaturesDatabase = Record<string, SignatureData>;
@@ -66,7 +67,7 @@ export default async function VerifyPage({
           <div className="flex items-center gap-4 mb-6">
             <div className="flex-shrink-0">
               <Image
-                src="/images/logo.webp"
+                src={data.logo}
                 alt="Cii Logo"
                 width={80}
                 height={80}
