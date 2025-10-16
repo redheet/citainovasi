@@ -27,12 +27,15 @@ export async function generateMetadata({
   params: { id: string };
 }): Promise<Metadata> {
   return {
-    title: "e-Signature QR Check :: PORTAL GSIC",
+    title: "e-Signature QR Check :: GSIC Event",
     description: "E-Signature verification page",
-    viewport:
-      "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no",
   };
 }
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+};
 
 export default async function VerifyPage({
   params,
@@ -71,7 +74,9 @@ export default async function VerifyPage({
               />
             </div>
             <div>
-              <h4 className="text-xl font-semibold mb-1">Portal</h4>
+              <h4 className="text-xl font-semibold mb-1">
+                e-Signature Verification
+              </h4>
               <h5 className="text-base text-gray-700">
                 This e-Signature is valid.
               </h5>
