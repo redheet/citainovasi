@@ -102,7 +102,7 @@ export default async function VerifyPage({
 
           {/* Signature Image */}
           <div className="flex justify-center mb-6">
-            <div className="relative w-[190px] h-[60px]">
+            <div className="relative w-[320px] h-[90px]">
               <Image
                 src={data.signatureUrl}
                 alt="Digital Signature"
