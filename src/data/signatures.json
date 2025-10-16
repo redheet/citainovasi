@@ -1,19 +1,22 @@
 {
   "signature-1": {
+    "logo": "/images/logo.webp",
     "signerName": "Windi Novitasari, S.Pd",
     "documentTitle": "Global Sustainability Innovation Competition (GSIC) 2025",
     "date": "Saturday, 18 October 2025",
     "description": "This is to advise that Windi Novitasari is approving this certificate for Global Sustainability Innovation Competition (GSIC) 2025",
-    "signatureUrl": "/images/ttd/windi.jpg"
+    "signatureUrl": "/images/ttd/windi.png"
   },
   "signature-2": {
+    "logo": "/images/logo.webp",
     "signerName": "Prof. Jon-Chao Hong",
     "documentTitle": "Global Sustainability Innovation Competition (GSIC) 2025",
     "date": "Saturday, 18 October 2025",
     "description": "This is to advise that Prof. Jon-Chao Hong is approving this certificate for Global Sustainability Innovation Competition (GSIC) 2025",
-    "signatureUrl": "/images/ttd/prof-hong.jpg"
+    "signatureUrl": "/images/ttd/hong.png"
   },
   "signature-3": {
+    "logo": "/images/i3l.webp",
     "signerName": "Arli Aditya Parikesit",
     "documentTitle": "Global Sustainability Innovation Competition (GSIC) 2025",
     "date": "Saturday, 18 October 2025",
