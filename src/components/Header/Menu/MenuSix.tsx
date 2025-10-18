@@ -9,7 +9,6 @@ import * as Icon from "@phosphor-icons/react/dist/ssr";
 const MenuSix = () => {
   const pathname = usePathname();
   const [fixedHeader, setFixedHeader] = useState(false);
-  // const [lastScrollPosition, setLastScrollPosition] = useState(0);
   const [openMenuMobile, setOpenMenuMobile] = useState(false);
   const [openSubNavMobile, setOpenSubNavMobile] = useState<number | null>(null);
 
@@ -21,13 +20,10 @@ const MenuSix = () => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
       setFixedHeader(scrollPosition > 40);
-      // setLastScrollPosition(scrollPosition);
     };
 
-    // Gắn sự kiện cuộn khi component được mount
     window.addEventListener("scroll", handleScroll);
 
-    // Hủy sự kiện khi component bị unmount
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -70,36 +66,31 @@ const MenuSix = () => {
                       pathname.includes("/pages/pdfview") ? "active" : ""
                     }`}
                   >
-                    <a
-                      className="nav-link text-title flex items-center gap-1"
-                      href="#!"
-                    >
+                    <div className="nav-link text-title flex items-center gap-1">
                       <span>Guide Book</span>
                       <span>
                         <Icon.CaretDown className="text-sm" />
                       </span>
-                      <ul className="sub-nav">
-                        <li
-                          className={`sub-nav-item text-black ${
-                            pathname === "/pages/" ? "active" : ""
-                          }`}
+                    </div>
+                    <ul className="sub-nav">
+                      <li
+                        className={`sub-nav-item text-black ${
+                          pathname === "/pages/" ? "active" : ""
+                        }`}
+                      >
+                        <Link
+                          className="sub-nav-link font-medium"
+                          href="/pages/pdfview"
                         >
-                          {" "}
-                          <Link
-                            className="sub-nav-link font-medium"
-                            href="/pages/pdfview"
-                          >
-                            View
-                          </Link>
-                        </li>
-                        <li className={`sub-nav-item text-black`}>
-                          {" "}
-                          <a className="sub-nav-link font-medium" href="/pdf/gsic.pdf">
-                            Download
-                          </a>
-                        </li>
-                      </ul>
-                    </a>
+                          View
+                        </Link>
+                      </li>
+                      <li className={`sub-nav-item text-black`}>
+                        <a className="sub-nav-link font-medium" href="/pdf/gsic.pdf">
+                          Download
+                        </a>
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </div>
@@ -138,12 +129,12 @@ const MenuSix = () => {
                   }`}
                   onClick={() => handleOpenSubNavMobile(1)}
                 >
-                  <a
+                  <Link
                     className="nav-link-mobile flex items-center justify-between"
-                    href="#!"
+                    href="/homepages/gsic"
                   >
-                    <span className="body2 font-semibold">Home </span>
-                  </a>
+                    <span className="body2 font-semibold">Home</span>
+                  </Link>
                 </li>
                 <li
                   className={`nav-item-mobile h-full flex-column gap-2 pt-4 pb-2 pl-3 pr-3 pointer about ${
@@ -151,13 +142,10 @@ const MenuSix = () => {
                   }`}
                   onClick={() => handleOpenSubNavMobile(2)}
                 >
-                  <a
-                    className="nav-link-mobile flex items-center justify-between"
-                    href="#!"
-                  >
-                    <span className="body2 font-semibold">Guide Book </span>
+                  <div className="nav-link-mobile flex items-center justify-between">
+                    <span className="body2 font-semibold">Guide Book</span>
                     <Icon.CaretRight className="text-base" />
-                  </a>
+                  </div>
                   <ul
                     className={`sub-nav-mobile ${
                       openSubNavMobile === 2 ? "open" : ""
@@ -172,25 +160,21 @@ const MenuSix = () => {
                       </Link>
                     </li>
                     <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2">
-                      {" "}
-                      <Link className="sub-nav-link text-base" href="#!">
+                      <a className="sub-nav-link text-base" href="/pdf/gsic.pdf">
                         Download
-                      </Link>
+                      </a>
                     </li>
                   </ul>
                 </li>
                 <li
-                  className={`nav-item-mobile h-full flex-column gap-2 pt-2 pb-2 pl-3 pr-3 pointer home ${
-                    openSubNavMobile === 1 ? "active" : ""
-                  }`}
-                  onClick={() => handleOpenSubNavMobile(1)}
+                  className={`nav-item-mobile h-full flex-column gap-2 pt-2 pb-2 pl-3 pr-3 pointer home`}
                 >
                   <a
                     className="nav-link-mobile flex items-center justify-between"
                     href="https://registration.citainovasi.com"
                     target="_blank"
                   >
-                    <span className="body2 font-semibold">Register Now </span>
+                    <span className="body2 font-semibold">Register Now</span>
                   </a>
                 </li>
               </ul>
