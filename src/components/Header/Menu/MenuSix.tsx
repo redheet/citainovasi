@@ -86,7 +86,7 @@ const MenuSix = () => {
                         </Link>
                       </li>
                       <li className={`sub-nav-item text-black`}>
-                        <a className="sub-nav-link font-medium" href="/pdf/gsic.pdf">
+                        <a className="sub-nav-link font-medium" href="/pdf/gsic-new.pdf">
                           Download
                         </a>
                       </li>
@@ -160,7 +160,7 @@ const MenuSix = () => {
                       </Link>
                     </li>
                     <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2">
-                      <a className="sub-nav-link text-base" href="/pdf/gsic.pdf">
+                      <a className="sub-nav-link text-base" href="/pdf/gsic-new.pdf">
                         Download
                       </a>
                     </li>

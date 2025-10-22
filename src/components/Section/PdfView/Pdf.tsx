@@ -25,7 +25,7 @@ export default function Pdf() {
     //   ];
   return (
     <div className='mt-10'>
-      <iframe allowFullScreen scrolling="no" className="fp-iframe border-0" src="https://heyzine.com/flip-book/9f23dcd5ea.html" width= "100%" height= "600px"></iframe>
+      <iframe allowFullScreen scrolling="no" className="fp-iframe border-0" src="https://heyzine.com/flip-book/ef351741da.html" width= "100%" height= "600px"></iframe>
     </div>
   )
 }
